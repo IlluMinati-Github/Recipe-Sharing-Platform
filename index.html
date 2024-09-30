@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FEE Project - Recipe Sharing Platform</title>
+    <link rel="icon" type="image/x-icon" href="https://www.chitkara.edu.in/wp-content/themes/chitkara/images/favicon-chitkara.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <header>
+        <div class="logo">Rasoi Adda</div>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Recipes</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </nav>
+        <div>
+            <a href="#" class="btn-login">Login</a>
+            <a href="#" class="btn-signup">Sign Up</a>
+        </div>
+    </header>
+
+    <div class="hero">
+        <div class="hero-text">
+            <h1>Welcome to Rasoi Adda</h1>
+            <p>Your go-to platform for delicious recipes!</p>
+            <p>Explore a variety of recipes and share your culinary creations.</p>
+            <div class="hero-button">
+                <a href="#" class="submit-recipe-button">Submit Recipe</a>
+                <a href="#" class="learn-more-button">Learn More</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="https://www.shutterstock.com/image-photo/happy-indian-mother-feeding-her-260nw-2432040613.jpg" alt="Indian Mom Cooking">
+        </div>
+    </div>
+
+    <div class="featured-recipes">
+        <h2>Featured Recipes</h2>
+        <div class="recipe-card">
+            <h3>Butter Chicken</h3>
+            <p>Butter Chicken is a classic Indian dish made with tender chicken pieces simmered in a rich and creamy tomato-based sauce.</p>
+            <p><strong>Ingredients:</strong> Chicken, butter, cream, tomatoes, spices.</p>
+            <i class="fas fa-star favorite" onclick="this.classList.toggle('fas'); this.classList.toggle('far');"></i> <!-- Star icon -->
+        </div>
+        <div class="recipe-card">
+            <h3>Paneer Tikka</h3>
+            <p>Paneer Tikka is a popular vegetarian dish consisting of marinated paneer cubes grilled to perfection.</p>
+            <p><strong>Ingredients:</strong> Paneer, yogurt, spices, bell peppers.</p>
+            <i class="fas fa-star favorite" onclick="this.classList.toggle('fas'); this.classList.toggle('far');"></i> <!-- Star icon -->
+        </div>
+        <div class="recipe-card">
+            <h3>Chole Bhature</h3>
+            <p>Chole Bhature is a traditional North Indian dish made with spicy chickpeas served with deep-fried bread.</p>
+            <p><strong>Ingredients:</strong> Chickpeas, spices, flour, yogurt.</p>
+            <i class="fas fa-star favorite" onclick="this.classList.toggle('fas'); this.classList.toggle('far');"></i> <!-- Star icon -->
+        </div>
+        <div class="recipe-card">
+            <h3>Dal Makhani</h3>
+            <p>Dal Makhani is a rich and creamy lentil dish made with black lentils and kidney beans.</p>
+            <p><strong>Ingredients:</strong> Black lentils, kidney beans, cream, spices.</p>
+            <i class="fas fa-star favorite" onclick="this.classList.toggle('fas'); this.classList.toggle('far');"></i> <!-- Star icon -->
+        </div>
+        <div class="recipe-card">
+            <h3>Palak Paneer</h3>
+            <p>Palak Paneer is a classic North Indian dish made with spinach and paneer in a creamy sauce.</p>
+            <p><strong>Ingredients:</strong> Spinach, paneer, spices, cream.</p>
+            <i class="fas fa-star favorite" onclick="this.classList.toggle('fas'); this.classList.toggle('far');"></i> <!-- Star icon -->
+        </div>
+        <div class="recipe-card">
+            <h3>Biryani</h3>
+            <p>Biryani is a fragrant rice dish made with spices, meat, and vegetables.</p>
+            <p><strong>Ingredients:</strong> Basmati rice, meat, spices, saffron.</p>
+            <i class="fas fa-star favorite" onclick="this.classList.toggle('fas'); this.classList.toggle('far');"></i> <!-- Star icon -->
+        </div>
+    </div>
+
+    <div class="contact">
+        <h2>Contact Us</h2>
+        <div class="contact-info">
+            <div class="contact-item">
+                <h3>Email</h3>
+                <p>info@rasoiadda.com</p>
+            </div>
+            <div class="contact-item">
+                <h3>Phone</h3>
+                <p>(+91) 123-456-7890</p>
+            </div>
+            <div class="contact-item">
+                <h3>Address</h3>
+                <p>123 Food Lane, Flavor Town, India</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section newsletter">
+                <h2>Subscribe to our Newsletter</h2>
+                <p>Subscribe to our newsletter for the latest updates on new features and product releases.</p>
+                <input type="email" placeholder="Enter your email">
+                <input type="submit" value="Subscribe">
+            </div>
+            <div class="footer-section company-details">
+                <h3>Company</h3>
+                <p>About Us</p>
+                <p>Contact Us</p>
+                <p>FAQs</p>
+                <p>Blog</p>
+                <p>Recipes</p>
+                
+            </div>
+            <div class="footer-section explore-section">
+                <h3>Explore</h3>
+                <p>Terms of Use</p>
+                <p>Privacy Policy</p>
+                <p>Cookies Policy</p>
+                <p>Sign Up</p>
+                <p>Login</p>
+            </div>
+            <div class="footer-section social-media">
+                <h3>Follow Us</h3>
+                <a href="#" target="_blank"><i class="fa-brands fa-square-facebook"></i>Facebook</a>
+                <a href="#" target="_blank"><i class="fab fa-instagram"></i>Instagram</a>
+                <a href="#" target="_blank"><i class="fa-brands fa-x-twitter"></i>X</a>
+                <a href="#" target="_blank"><i class="fa-brands fa-linkedin"></i>LinkedIn</a>
+                <a href="#" target="_blank"><i class="fab fa-youtube"></i>YouTube</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
